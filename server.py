@@ -24,3 +24,7 @@ def add(numbers: Numbers):
 def multiply(numbers: Numbers):
     result = numbers.x * numbers.y
     return {"result": result}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("server:app", host="0.0.0.0", port=8080)
