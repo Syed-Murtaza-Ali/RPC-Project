@@ -1,4 +1,5 @@
 # Run with this http://127.0.0.1:8080/docs
+# for docker http://127.0.0.1:8080/docs
 # run both client and server terminals simultaneously
 # uvicorn server:app --host 0.0.0.0 --port 8080 for server.py
 # python client.py for client.py
